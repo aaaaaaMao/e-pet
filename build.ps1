@@ -1,0 +1,1 @@
+pyinstaller.exe --clean -F -w src/main.py
