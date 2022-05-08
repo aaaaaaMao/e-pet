@@ -23,7 +23,7 @@ class App(QWidget):
         label = QLabel(self)
         # pixmap = QPixmap('../pic/cheer.gif')
         # label.setPixmap(pixmap)
-        self.gif = QMovie('../pic/cheers.gif')
+        self.gif = QMovie('./img/cheers.gif')
         pixmap = self.gif.currentPixmap()
         self.gif.frameChanged.connect(self.onNextFrame)
 
